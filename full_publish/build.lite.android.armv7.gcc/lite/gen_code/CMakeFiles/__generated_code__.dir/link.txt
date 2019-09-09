@@ -1,0 +1,2 @@
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ar qc lib__generated_code__.a  CMakeFiles/__generated_code__.dir/__generated_code__.cc.o
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ranlib lib__generated_code__.a

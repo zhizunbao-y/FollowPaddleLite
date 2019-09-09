@@ -1,0 +1,2 @@
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ar qc libsqueeze_op_lite.a  CMakeFiles/squeeze_op_lite.dir/squeeze_op.cc.o
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ranlib libsqueeze_op_lite.a

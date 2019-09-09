@@ -1,0 +1,182 @@
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot open crtbegin_dynamic.o: 没有那个文件或目录
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot open crtend_android.o: 没有那个文件或目录
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot find -lstdc++
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot find -lm
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot find -lc
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot find -ldl
+collect2: error: ld returned 1 exit status
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot open crtbegin_dynamic.o: 没有那个文件或目录
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot open crtend_android.o: 没有那个文件或目录
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot find -lc
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot find -ldl
+collect2: error: ld returned 1 exit status
+
+
+Performing C++ SOURCE FILE Test MMX_FOUND failed with the following output:
+Change Dir: /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1061e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1061e.dir/build.make CMakeFiles/cmTC_1061e.dir/build
+make[1]: Entering directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1061e.dir/src.cxx.o
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/sysroot   -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/android/support/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include/arm-linux-androideabi  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=22 -fexceptions -frtti -DMMX_FOUND -mmmx -g -fPIE   -o CMakeFiles/cmTC_1061e.dir/src.cxx.o -c /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp/src.cxx
+arm-linux-androideabi-g++: error: unrecognized command line option '-mmmx'
+CMakeFiles/cmTC_1061e.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_1061e.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_1061e.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1061e/fast' failed
+make: *** [cmTC_1061e/fast] Error 2
+
+Return value: 1
+Source file was:
+
+#include <mmintrin.h>
+int main()
+{
+    _mm_setzero_si64();
+    return 0;
+}
+Performing C++ SOURCE FILE Test SSE2_FOUND failed with the following output:
+Change Dir: /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a52d4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a52d4.dir/build.make CMakeFiles/cmTC_a52d4.dir/build
+make[1]: Entering directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a52d4.dir/src.cxx.o
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/sysroot   -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/android/support/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include/arm-linux-androideabi  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=22 -fexceptions -frtti -DSSE2_FOUND -msse2 -g -fPIE   -o CMakeFiles/cmTC_a52d4.dir/src.cxx.o -c /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp/src.cxx
+arm-linux-androideabi-g++: error: unrecognized command line option '-msse2'
+CMakeFiles/cmTC_a52d4.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a52d4.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_a52d4.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a52d4/fast' failed
+make: *** [cmTC_a52d4/fast] Error 2
+
+Return value: 1
+Source file was:
+
+#include <emmintrin.h>
+int main()
+{
+    _mm_setzero_si128();
+    return 0;
+}
+Performing C++ SOURCE FILE Test SSE3_FOUND failed with the following output:
+Change Dir: /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c7c17/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c7c17.dir/build.make CMakeFiles/cmTC_c7c17.dir/build
+make[1]: Entering directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c7c17.dir/src.cxx.o
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/sysroot   -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/android/support/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include/arm-linux-androideabi  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=22 -fexceptions -frtti -DSSE3_FOUND -msse3 -g -fPIE   -o CMakeFiles/cmTC_c7c17.dir/src.cxx.o -c /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp/src.cxx
+arm-linux-androideabi-g++: error: unrecognized command line option '-msse3'
+CMakeFiles/cmTC_c7c17.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_c7c17.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_c7c17.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c7c17/fast' failed
+make: *** [cmTC_c7c17/fast] Error 2
+
+Return value: 1
+Source file was:
+
+#include <pmmintrin.h>
+int main()
+{
+    __m128d a = _mm_set1_pd(6.28);
+    __m128d b = _mm_set1_pd(3.14);
+    __m128d result = _mm_addsub_pd(a, b);
+    result = _mm_movedup_pd(result);
+    return 0;
+}
+Performing C++ SOURCE FILE Test AVX_FOUND failed with the following output:
+Change Dir: /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dff0b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dff0b.dir/build.make CMakeFiles/cmTC_dff0b.dir/build
+make[1]: Entering directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dff0b.dir/src.cxx.o
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/sysroot   -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/android/support/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include/arm-linux-androideabi  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=22 -fexceptions -frtti -DAVX_FOUND -mavx -g -fPIE   -o CMakeFiles/cmTC_dff0b.dir/src.cxx.o -c /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp/src.cxx
+arm-linux-androideabi-g++: error: unrecognized command line option '-mavx'
+CMakeFiles/cmTC_dff0b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_dff0b.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_dff0b.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_dff0b/fast' failed
+make: *** [cmTC_dff0b/fast] Error 2
+
+Return value: 1
+Source file was:
+
+#include <immintrin.h>
+int main()
+{
+    __m256 a = _mm256_set_ps (-1.0f, 2.0f, -3.0f, 4.0f, -1.0f, 2.0f, -3.0f, 4.0f);
+    __m256 b = _mm256_set_ps (1.0f, 2.0f, 3.0f, 4.0f, 1.0f, 2.0f, 3.0f, 4.0f);
+    __m256 result = _mm256_add_ps (a, b);
+    return 0;
+}
+Performing C++ SOURCE FILE Test AVX2_FOUND failed with the following output:
+Change Dir: /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_11987/fast"
+/usr/bin/make -f CMakeFiles/cmTC_11987.dir/build.make CMakeFiles/cmTC_11987.dir/build
+make[1]: Entering directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_11987.dir/src.cxx.o
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/sysroot   -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/android/support/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include/arm-linux-androideabi  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=22 -fexceptions -frtti -DAVX2_FOUND -mavx2 -g -fPIE   -o CMakeFiles/cmTC_11987.dir/src.cxx.o -c /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp/src.cxx
+arm-linux-androideabi-g++: error: unrecognized command line option '-mavx2'
+CMakeFiles/cmTC_11987.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_11987.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_11987.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_11987/fast' failed
+make: *** [cmTC_11987/fast] Error 2
+
+Return value: 1
+Source file was:
+
+#include <immintrin.h>
+int main()
+{
+    __m256i a = _mm256_set_epi32 (-1, 2, -3, 4, -1, 2, -3, 4);
+    __m256i result = _mm256_abs_epi32 (a);
+    return 0;
+}
+Performing C++ SOURCE FILE Test AVX512F_FOUND failed with the following output:
+Change Dir: /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_867bd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_867bd.dir/build.make CMakeFiles/cmTC_867bd.dir/build
+make[1]: Entering directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_867bd.dir/src.cxx.o
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/sysroot   -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/android/support/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include/arm-linux-androideabi  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=22 -fexceptions -frtti -DAVX512F_FOUND -mavx512f -g -fPIE   -o CMakeFiles/cmTC_867bd.dir/src.cxx.o -c /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp/src.cxx
+arm-linux-androideabi-g++: error: unrecognized command line option '-mavx512f'
+CMakeFiles/cmTC_867bd.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_867bd.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_867bd.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_867bd/fast' failed
+make: *** [cmTC_867bd/fast] Error 2
+
+Return value: 1
+Source file was:
+
+#include <immintrin.h>
+int main()
+{
+    __m512i a = _mm512_set_epi32 (-1, 2, -3, 4, -1, 2, -3, 4,
+                                  13, -5, 6, -7, 9, 2, -6, 3);
+    __m512i result = _mm512_abs_epi32 (a);
+    return 0;
+}

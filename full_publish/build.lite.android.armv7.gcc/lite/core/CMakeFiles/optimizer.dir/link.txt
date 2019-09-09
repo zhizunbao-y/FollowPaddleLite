@@ -1,0 +1,2 @@
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ar qc liboptimizer.a  CMakeFiles/optimizer.dir/optimizer.cc.o
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ranlib liboptimizer.a

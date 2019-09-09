@@ -1,0 +1,2 @@
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-ar qc liblayout_once_op.a  CMakeFiles/layout_once_op.dir/layout_once_op.cc.o
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-ranlib liblayout_once_op.a

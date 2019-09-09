@@ -1,0 +1,2 @@
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ar qc libargmax_compute_arm.a  CMakeFiles/argmax_compute_arm.dir/argmax_compute.cc.o
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ranlib libargmax_compute_arm.a

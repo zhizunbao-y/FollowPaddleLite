@@ -1,0 +1,935 @@
+The target system is: Android - 22 - armv7-a
+The host system is: Linux - 4.15.0-58-generic - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/3.11.0/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/3.11.0/CompilerIdC/CMakeCCompilerId.o"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_be059/fast"
+/usr/bin/make -f CMakeFiles/cmTC_be059.dir/build.make CMakeFiles/cmTC_be059.dir/build
+make[1]: Entering directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_be059.dir/testCXXCompiler.cxx.o
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/sysroot   -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/android/support/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include/arm-linux-androideabi  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=22 -fexceptions -frtti  -g -fPIE   -o CMakeFiles/cmTC_be059.dir/testCXXCompiler.cxx.o -c /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_be059
+/home/yuan/software/cmake-3.11.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be059.dir/link.txt --verbose=1
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=22 -fexceptions -frtti  -g  -Wl,--fix-cortex-a8  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_be059.dir/testCXXCompiler.cxx.o  -o cmTC_be059  "/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++_static.a" "/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++abi.a" "/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libandroid_support.a" "/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libunwind.a" -latomic 
+make[1]: Leaving directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a0ff2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a0ff2.dir/build.make CMakeFiles/cmTC_a0ff2.dir/build
+make[1]: Entering directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a0ff2.dir/CMakeCXXCompilerABI.cpp.o
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/sysroot   -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/android/support/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include/arm-linux-androideabi  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=22 -fexceptions -frtti  -g -fPIE   -o CMakeFiles/cmTC_a0ff2.dir/CMakeCXXCompilerABI.cpp.o -c /home/yuan/software/cmake-3.11.0-Linux-x86_64/share/cmake-3.11/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_a0ff2
+/home/yuan/software/cmake-3.11.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0ff2.dir/link.txt --verbose=1
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=22 -fexceptions -frtti  -g  -Wl,--fix-cortex-a8  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc -v CMakeFiles/cmTC_a0ff2.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a0ff2  "/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++_static.a" "/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++abi.a" "/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libandroid_support.a" "/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libunwind.a" -latomic 
+Using built-in specs.
+COLLECT_GCC=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++
+COLLECT_LTO_WRAPPER=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper
+Target: arm-linux-androideabi
+Configured with: /usr/local/google/buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/1f702185e9cc53b747a5c4e1441c9254 --target=arm-linux-androideabi --host=x86_64-linux-gnu --build=x86_64-linux-gnu --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/1f702185e9cc53b747a5c4e1441c9254 --with-sysroot=/tmp/1f702185e9cc53b747a5c4e1441c9254/sysroot --with-binutils-version=2.27 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/1f702185e9cc53b747a5c4e1441c9254/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-threads --enable-eh-frame-hdr-for-static --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --with-arch=armv5te --program-transform-name='s&^&arm-linux-androideabi-&' --enable-gold=default
+Thread model: posix
+gcc version 4.9.x 20150123 (prerelease) (GCC) 
+COMPILER_PATH=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/
+LIBRARY_PATH=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/:/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib/
+COLLECT_GCC_OPTIONS='-march=armv7-a' '-mthumb' '-mfpu=neon' '-mfloat-abi=softfp' '-funwind-tables' '-D' '__ANDROID_API__=22' '-fexceptions' '-frtti' '-g' '-fPIE' '-pie' '-v' '-o' 'cmTC_a0ff2' '-mtls-dialect=gnu'
+ /home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2 -plugin /home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin.so -plugin-opt=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnIR0nF.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm --eh-frame-hdr -dynamic-linker /system/bin/linker -X -m armelf_linux_eabi -z noexecstack -z relro -z now -pie -o cmTC_a0ff2 /home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib/crtbegin_dynamic.o -L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x -L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc -L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib -L/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib --fix-cortex-a8 --gc-sections -z nocopyreloc CMakeFiles/cmTC_a0ff2.dir/CMakeCXXCompilerABI.cpp.o /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++_static.a /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++abi.a /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libandroid_support.a /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libunwind.a -latomic -lstdc++ -lm -lgcc -lc -ldl -lgcc /home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib/crtend_android.o
+make[1]: Leaving directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_a0ff2/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a0ff2.dir/build.make CMakeFiles/cmTC_a0ff2.dir/build]
+  ignore line: [make[1]: Entering directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_a0ff2.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/sysroot   -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/android/support/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include/arm-linux-androideabi  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=22 -fexceptions -frtti  -g -fPIE   -o CMakeFiles/cmTC_a0ff2.dir/CMakeCXXCompilerABI.cpp.o -c /home/yuan/software/cmake-3.11.0-Linux-x86_64/share/cmake-3.11/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_a0ff2]
+  ignore line: [/home/yuan/software/cmake-3.11.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0ff2.dir/link.txt --verbose=1]
+  ignore line: [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=22 -fexceptions -frtti  -g  -Wl,--fix-cortex-a8  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc -v CMakeFiles/cmTC_a0ff2.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a0ff2  "/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++_static.a" "/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++abi.a" "/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libandroid_support.a" "/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libunwind.a" -latomic ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper]
+  ignore line: [Target: arm-linux-androideabi]
+  ignore line: [Configured with: /usr/local/google/buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/1f702185e9cc53b747a5c4e1441c9254 --target=arm-linux-androideabi --host=x86_64-linux-gnu --build=x86_64-linux-gnu --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/1f702185e9cc53b747a5c4e1441c9254 --with-sysroot=/tmp/1f702185e9cc53b747a5c4e1441c9254/sysroot --with-binutils-version=2.27 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/1f702185e9cc53b747a5c4e1441c9254/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-threads --enable-eh-frame-hdr-for-static --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --with-arch=armv5te --program-transform-name='s&^&arm-linux-androideabi-&' --enable-gold=default]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.x 20150123 (prerelease) (GCC) ]
+  ignore line: [COMPILER_PATH=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/]
+  ignore line: [LIBRARY_PATH=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/:/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=armv7-a' '-mthumb' '-mfpu=neon' '-mfloat-abi=softfp' '-funwind-tables' '-D' '__ANDROID_API__=22' '-fexceptions' '-frtti' '-g' '-fPIE' '-pie' '-v' '-o' 'cmTC_a0ff2' '-mtls-dialect=gnu']
+  link line: [ /home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2 -plugin /home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin.so -plugin-opt=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnIR0nF.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm --eh-frame-hdr -dynamic-linker /system/bin/linker -X -m armelf_linux_eabi -z noexecstack -z relro -z now -pie -o cmTC_a0ff2 /home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib/crtbegin_dynamic.o -L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x -L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc -L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib -L/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib --fix-cortex-a8 --gc-sections -z nocopyreloc CMakeFiles/cmTC_a0ff2.dir/CMakeCXXCompilerABI.cpp.o /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++_static.a /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++abi.a /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libandroid_support.a /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libunwind.a -latomic -lstdc++ -lm -lgcc -lc -ldl -lgcc /home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib/crtend_android.o]
+    arg [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccnIR0nF.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-ldl] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_a0ff2] ==> ignore
+    arg [/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> dir [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
+    arg [-L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> dir [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb]
+    arg [-L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x] ==> dir [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x]
+    arg [-L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc] ==> dir [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc]
+    arg [-L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib] ==> dir [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib]
+    arg [-L/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib] ==> dir [/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib]
+    arg [--fix-cortex-a8] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [CMakeFiles/cmTC_a0ff2.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++_static.a] ==> lib [/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++_static.a]
+    arg [/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++abi.a] ==> lib [/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++abi.a]
+    arg [/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libandroid_support.a] ==> lib [/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libandroid_support.a]
+    arg [/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libunwind.a] ==> lib [/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libunwind.a]
+    arg [-latomic] ==> lib [atomic]
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-ldl] ==> lib [dl]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib/crtend_android.o] ==> ignore
+  collapse library dir [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
+  collapse library dir [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
+  collapse library dir [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x] ==> [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  collapse library dir [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc] ==> [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc]
+  collapse library dir [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib] ==> [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib]
+  collapse library dir [/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib] ==> [/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib]
+  implicit libs: [/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++_static.a;/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++abi.a;/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libandroid_support.a;/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libunwind.a;atomic;stdc++;m;gcc;c;dl;gcc]
+  implicit dirs: [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb;/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib/armv7-a/thumb;/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x;/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc;/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib;/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_52779/fast"
+/usr/bin/make -f CMakeFiles/cmTC_52779.dir/build.make CMakeFiles/cmTC_52779.dir/build
+make[1]: Entering directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_52779.dir/feature_tests.cxx.o
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/sysroot   -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/android/support/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include/arm-linux-androideabi  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=22 -fexceptions -frtti  -g -fPIE   -std=c++14 -o CMakeFiles/cmTC_52779.dir/feature_tests.cxx.o -c /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_52779
+/home/yuan/software/cmake-3.11.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52779.dir/link.txt --verbose=1
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=22 -fexceptions -frtti  -g  -Wl,--fix-cortex-a8  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_52779.dir/feature_tests.cxx.o  -o cmTC_52779  "/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++_static.a" "/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++abi.a" "/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libandroid_support.a" "/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libunwind.a" -latomic 
+make[1]: Leaving directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9fcb6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9fcb6.dir/build.make CMakeFiles/cmTC_9fcb6.dir/build
+make[1]: Entering directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9fcb6.dir/feature_tests.cxx.o
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/sysroot   -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/android/support/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include/arm-linux-androideabi  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=22 -fexceptions -frtti  -g -fPIE   -std=c++11 -o CMakeFiles/cmTC_9fcb6.dir/feature_tests.cxx.o -c /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_9fcb6
+/home/yuan/software/cmake-3.11.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9fcb6.dir/link.txt --verbose=1
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=22 -fexceptions -frtti  -g  -Wl,--fix-cortex-a8  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_9fcb6.dir/feature_tests.cxx.o  -o cmTC_9fcb6  "/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++_static.a" "/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++abi.a" "/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libandroid_support.a" "/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libunwind.a" -latomic 
+make[1]: Leaving directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ab62f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ab62f.dir/build.make CMakeFiles/cmTC_ab62f.dir/build
+make[1]: Entering directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ab62f.dir/feature_tests.cxx.o
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/sysroot   -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/android/support/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include/arm-linux-androideabi  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=22 -fexceptions -frtti  -g -fPIE   -std=c++98 -o CMakeFiles/cmTC_ab62f.dir/feature_tests.cxx.o -c /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_ab62f
+/home/yuan/software/cmake-3.11.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab62f.dir/link.txt --verbose=1
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=22 -fexceptions -frtti  -g  -Wl,--fix-cortex-a8  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_ab62f.dir/feature_tests.cxx.o  -o cmTC_ab62f  "/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++_static.a" "/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++abi.a" "/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libandroid_support.a" "/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libunwind.a" -latomic 
+make[1]: Leaving directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ddc3e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ddc3e.dir/build.make CMakeFiles/cmTC_ddc3e.dir/build
+make[1]: Entering directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ddc3e.dir/testCCompiler.c.o
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/sysroot  -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include/arm-linux-androideabi  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=22 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_ddc3e.dir/testCCompiler.c.o   -c /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_ddc3e
+/home/yuan/software/cmake-3.11.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ddc3e.dir/link.txt --verbose=1
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=22 -fexceptions  -g  -Wl,--fix-cortex-a8  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_ddc3e.dir/testCCompiler.c.o  -o cmTC_ddc3e 
+make[1]: Leaving directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_52982/fast"
+/usr/bin/make -f CMakeFiles/cmTC_52982.dir/build.make CMakeFiles/cmTC_52982.dir/build
+make[1]: Entering directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_52982.dir/CMakeCCompilerABI.c.o
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/sysroot  -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include/arm-linux-androideabi  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=22 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_52982.dir/CMakeCCompilerABI.c.o   -c /home/yuan/software/cmake-3.11.0-Linux-x86_64/share/cmake-3.11/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_52982
+/home/yuan/software/cmake-3.11.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52982.dir/link.txt --verbose=1
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=22 -fexceptions  -g  -Wl,--fix-cortex-a8  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc -v CMakeFiles/cmTC_52982.dir/CMakeCCompilerABI.c.o  -o cmTC_52982 
+Using built-in specs.
+COLLECT_GCC=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc
+COLLECT_LTO_WRAPPER=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper
+Target: arm-linux-androideabi
+Configured with: /usr/local/google/buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/1f702185e9cc53b747a5c4e1441c9254 --target=arm-linux-androideabi --host=x86_64-linux-gnu --build=x86_64-linux-gnu --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/1f702185e9cc53b747a5c4e1441c9254 --with-sysroot=/tmp/1f702185e9cc53b747a5c4e1441c9254/sysroot --with-binutils-version=2.27 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/1f702185e9cc53b747a5c4e1441c9254/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-threads --enable-eh-frame-hdr-for-static --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --with-arch=armv5te --program-transform-name='s&^&arm-linux-androideabi-&' --enable-gold=default
+Thread model: posix
+gcc version 4.9.x 20150123 (prerelease) (GCC) 
+COMPILER_PATH=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/
+LIBRARY_PATH=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/:/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib/
+COLLECT_GCC_OPTIONS='-march=armv7-a' '-mthumb' '-mfpu=neon' '-mfloat-abi=softfp' '-funwind-tables' '-D' '__ANDROID_API__=22' '-fexceptions' '-g' '-fPIE' '-pie' '-v' '-o' 'cmTC_52982' '-mtls-dialect=gnu'
+ /home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2 -plugin /home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin.so -plugin-opt=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWZFjiW.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm --eh-frame-hdr -dynamic-linker /system/bin/linker -X -m armelf_linux_eabi -z noexecstack -z relro -z now -pie -o cmTC_52982 /home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib/crtbegin_dynamic.o -L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x -L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc -L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib -L/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib --fix-cortex-a8 --gc-sections -z nocopyreloc CMakeFiles/cmTC_52982.dir/CMakeCCompilerABI.c.o -lgcc -lc -ldl -lgcc /home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib/crtend_android.o
+make[1]: Leaving directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_52982/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_52982.dir/build.make CMakeFiles/cmTC_52982.dir/build]
+  ignore line: [make[1]: Entering directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_52982.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/sysroot  -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include/arm-linux-androideabi  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=22 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_52982.dir/CMakeCCompilerABI.c.o   -c /home/yuan/software/cmake-3.11.0-Linux-x86_64/share/cmake-3.11/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_52982]
+  ignore line: [/home/yuan/software/cmake-3.11.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52982.dir/link.txt --verbose=1]
+  ignore line: [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=22 -fexceptions  -g  -Wl,--fix-cortex-a8  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc -v CMakeFiles/cmTC_52982.dir/CMakeCCompilerABI.c.o  -o cmTC_52982 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper]
+  ignore line: [Target: arm-linux-androideabi]
+  ignore line: [Configured with: /usr/local/google/buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/1f702185e9cc53b747a5c4e1441c9254 --target=arm-linux-androideabi --host=x86_64-linux-gnu --build=x86_64-linux-gnu --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/1f702185e9cc53b747a5c4e1441c9254 --with-sysroot=/tmp/1f702185e9cc53b747a5c4e1441c9254/sysroot --with-binutils-version=2.27 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/1f702185e9cc53b747a5c4e1441c9254/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-threads --enable-eh-frame-hdr-for-static --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --with-arch=armv5te --program-transform-name='s&^&arm-linux-androideabi-&' --enable-gold=default]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.x 20150123 (prerelease) (GCC) ]
+  ignore line: [COMPILER_PATH=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/]
+  ignore line: [LIBRARY_PATH=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/:/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=armv7-a' '-mthumb' '-mfpu=neon' '-mfloat-abi=softfp' '-funwind-tables' '-D' '__ANDROID_API__=22' '-fexceptions' '-g' '-fPIE' '-pie' '-v' '-o' 'cmTC_52982' '-mtls-dialect=gnu']
+  link line: [ /home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2 -plugin /home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin.so -plugin-opt=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWZFjiW.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm --eh-frame-hdr -dynamic-linker /system/bin/linker -X -m armelf_linux_eabi -z noexecstack -z relro -z now -pie -o cmTC_52982 /home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib/crtbegin_dynamic.o -L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x -L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc -L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib -L/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib --fix-cortex-a8 --gc-sections -z nocopyreloc CMakeFiles/cmTC_52982.dir/CMakeCCompilerABI.c.o -lgcc -lc -ldl -lgcc /home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib/crtend_android.o]
+    arg [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccWZFjiW.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-ldl] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_52982] ==> ignore
+    arg [/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> dir [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
+    arg [-L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> dir [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb]
+    arg [-L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x] ==> dir [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x]
+    arg [-L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc] ==> dir [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc]
+    arg [-L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib] ==> dir [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib]
+    arg [-L/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib] ==> dir [/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib]
+    arg [--fix-cortex-a8] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [CMakeFiles/cmTC_52982.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-ldl] ==> lib [dl]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib/crtend_android.o] ==> ignore
+  collapse library dir [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
+  collapse library dir [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
+  collapse library dir [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x] ==> [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  collapse library dir [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc] ==> [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc]
+  collapse library dir [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib] ==> [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib]
+  collapse library dir [/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib] ==> [/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib]
+  implicit libs: [gcc;c;dl;gcc]
+  implicit dirs: [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb;/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib/armv7-a/thumb;/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x;/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc;/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib;/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3e934/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3e934.dir/build.make CMakeFiles/cmTC_3e934.dir/build
+make[1]: Entering directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3e934.dir/feature_tests.c.o
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/sysroot  -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include/arm-linux-androideabi  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=22 -fexceptions  -g -fPIE   -std=c11 -o CMakeFiles/cmTC_3e934.dir/feature_tests.c.o   -c /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/feature_tests.c
+Linking C executable cmTC_3e934
+/home/yuan/software/cmake-3.11.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e934.dir/link.txt --verbose=1
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=22 -fexceptions  -g  -Wl,--fix-cortex-a8  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_3e934.dir/feature_tests.c.o  -o cmTC_3e934 
+make[1]: Leaving directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b3c55/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b3c55.dir/build.make CMakeFiles/cmTC_b3c55.dir/build
+make[1]: Entering directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b3c55.dir/feature_tests.c.o
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/sysroot  -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include/arm-linux-androideabi  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=22 -fexceptions  -g -fPIE   -std=c99 -o CMakeFiles/cmTC_b3c55.dir/feature_tests.c.o   -c /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/feature_tests.c
+Linking C executable cmTC_b3c55
+/home/yuan/software/cmake-3.11.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3c55.dir/link.txt --verbose=1
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=22 -fexceptions  -g  -Wl,--fix-cortex-a8  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_b3c55.dir/feature_tests.c.o  -o cmTC_b3c55 
+make[1]: Leaving directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_447b5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_447b5.dir/build.make CMakeFiles/cmTC_447b5.dir/build
+make[1]: Entering directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_447b5.dir/feature_tests.c.o
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/sysroot  -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include/arm-linux-androideabi  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=22 -fexceptions  -g -fPIE   -std=c90 -o CMakeFiles/cmTC_447b5.dir/feature_tests.c.o   -c /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/feature_tests.c
+Linking C executable cmTC_447b5
+/home/yuan/software/cmake-3.11.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_447b5.dir/link.txt --verbose=1
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=22 -fexceptions  -g  -Wl,--fix-cortex-a8  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_447b5.dir/feature_tests.c.o  -o cmTC_447b5 
+make[1]: Leaving directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_13645/fast"
+/usr/bin/make -f CMakeFiles/cmTC_13645.dir/build.make CMakeFiles/cmTC_13645.dir/build
+make[1]: Entering directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_13645.dir/CheckIncludeFile.c.o
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/sysroot  -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include/arm-linux-androideabi  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=22 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_13645.dir/CheckIncludeFile.c.o   -c /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_13645
+/home/yuan/software/cmake-3.11.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13645.dir/link.txt --verbose=1
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=22 -fexceptions  -g  -Wl,--fix-cortex-a8  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_13645.dir/CheckIncludeFile.c.o  -o cmTC_13645 
+make[1]: Leaving directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp'
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_83a51/fast"
+/usr/bin/make -f CMakeFiles/cmTC_83a51.dir/build.make CMakeFiles/cmTC_83a51.dir/build
+make[1]: Entering directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_83a51.dir/CheckSymbolExists.c.o
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/sysroot  -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include/arm-linux-androideabi  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=22 -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_83a51.dir/CheckSymbolExists.c.o   -c /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_83a51
+/home/yuan/software/cmake-3.11.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83a51.dir/link.txt --verbose=1
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=22 -fexceptions  -g  -Wl,--fix-cortex-a8  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_83a51.dir/CheckSymbolExists.c.o  -o cmTC_83a51 
+make[1]: Leaving directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp'
+
+File /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Detecting C OpenMP compiler ABI info compiled with the following output:
+Change Dir: /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_37c00/fast"
+/usr/bin/make -f CMakeFiles/cmTC_37c00.dir/build.make CMakeFiles/cmTC_37c00.dir/build
+make[1]: Entering directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_37c00.dir/OpenMPTryFlag.c.o
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/sysroot  -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include/arm-linux-androideabi  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=22 -fexceptions -llog -fPIC -fopenmp -v -g -fPIE   -o CMakeFiles/cmTC_37c00.dir/OpenMPTryFlag.c.o   -c /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Using built-in specs.
+COLLECT_GCC=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc
+Target: arm-linux-androideabi
+Configured with: /usr/local/google/buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/1f702185e9cc53b747a5c4e1441c9254 --target=arm-linux-androideabi --host=x86_64-linux-gnu --build=x86_64-linux-gnu --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/1f702185e9cc53b747a5c4e1441c9254 --with-sysroot=/tmp/1f702185e9cc53b747a5c4e1441c9254/sysroot --with-binutils-version=2.27 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/1f702185e9cc53b747a5c4e1441c9254/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-threads --enable-eh-frame-hdr-for-static --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --with-arch=armv5te --program-transform-name='s&^&arm-linux-androideabi-&' --enable-gold=default
+Thread model: posix
+gcc version 4.9.x 20150123 (prerelease) (GCC) 
+COLLECT_GCC_OPTIONS='-isystem' '/home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include' '-isystem' '/home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include/arm-linux-androideabi' '-march=armv7-a' '-mthumb' '-mfpu=neon' '-mfloat-abi=softfp' '-funwind-tables' '-D' '__ANDROID_API__=22' '-fexceptions' '-fopenmp' '-v' '-g' '-fPIE' '-o' 'CMakeFiles/cmTC_37c00.dir/OpenMPTryFlag.c.o' '-c' '-mtls-dialect=gnu' '-pthread'
+ /home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/cc1 -quiet -v -imultilib armv7-a/thumb -iprefix /home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/ -isysroot /home/yuan/paddle_lite/android-ndk-r17c/sysroot -D_REENTRANT -D __ANDROID_API__=22 -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include/arm-linux-androideabi /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -mbionic -fpic -quiet -dumpbase OpenMPTryFlag.c -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -mtls-dialect=gnu -auxbase-strip CMakeFiles/cmTC_37c00.dir/OpenMPTryFlag.c.o -g -version -funwind-tables -fexceptions -fopenmp -fPIE -o /tmp/ccyV1Oea.s
+GNU C (GCC) version 4.9.x 20150123 (prerelease) (arm-linux-androideabi)
+	compiled by GNU C version 4.8, GMP version 5.0.5, MPFR version 3.1.1, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/include"
+ignoring duplicate directory "/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/../../lib/gcc/arm-linux-androideabi/4.9.x/include"
+ignoring nonexistent directory "/home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/local/include"
+ignoring duplicate directory "/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/../../lib/gcc/arm-linux-androideabi/4.9.x/include-fixed"
+ignoring nonexistent directory "/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/../../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/include"
+ignoring duplicate directory "/home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include
+ /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include/arm-linux-androideabi
+ /home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/include
+ /home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/include-fixed
+End of search list.
+GNU C (GCC) version 4.9.x 20150123 (prerelease) (arm-linux-androideabi)
+	compiled by GNU C version 4.8, GMP version 5.0.5, MPFR version 3.1.1, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 3ca9deec1e8f8d5feef1f76da9a96d4d
+COLLECT_GCC_OPTIONS='-isystem' '/home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include' '-isystem' '/home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include/arm-linux-androideabi' '-march=armv7-a' '-mthumb' '-mfpu=neon' '-mfloat-abi=softfp' '-funwind-tables' '-D' '__ANDROID_API__=22' '-fexceptions' '-fopenmp' '-v' '-g' '-fPIE' '-o' 'CMakeFiles/cmTC_37c00.dir/OpenMPTryFlag.c.o' '-c' '-mtls-dialect=gnu' '-pthread'
+ /home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/as -v -march=armv7-a -mfloat-abi=softfp -mfpu=neon -meabi=5 --noexecstack -o CMakeFiles/cmTC_37c00.dir/OpenMPTryFlag.c.o /tmp/ccyV1Oea.s
+GNU assembler version 2.27.0 (arm-linux-androideabi) using BFD version (binutils-2.27-bf0c2e88) 2.27.0.20170315
+COMPILER_PATH=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/
+LIBRARY_PATH=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/:/home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-isystem' '/home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include' '-isystem' '/home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include/arm-linux-androideabi' '-march=armv7-a' '-mthumb' '-mfpu=neon' '-mfloat-abi=softfp' '-funwind-tables' '-D' '__ANDROID_API__=22' '-fexceptions' '-fopenmp' '-v' '-g' '-fPIE' '-o' 'CMakeFiles/cmTC_37c00.dir/OpenMPTryFlag.c.o' '-c' '-mtls-dialect=gnu' '-pthread'
+Linking C executable cmTC_37c00
+/home/yuan/software/cmake-3.11.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37c00.dir/link.txt --verbose=1
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=22 -fexceptions -llog -fPIC -fopenmp -v -g  -Wl,--fix-cortex-a8  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_37c00.dir/OpenMPTryFlag.c.o  -o cmTC_37c00 -v 
+Using built-in specs.
+COLLECT_GCC=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc
+COLLECT_LTO_WRAPPER=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper
+Target: arm-linux-androideabi
+Configured with: /usr/local/google/buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/1f702185e9cc53b747a5c4e1441c9254 --target=arm-linux-androideabi --host=x86_64-linux-gnu --build=x86_64-linux-gnu --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/1f702185e9cc53b747a5c4e1441c9254 --with-sysroot=/tmp/1f702185e9cc53b747a5c4e1441c9254/sysroot --with-binutils-version=2.27 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/1f702185e9cc53b747a5c4e1441c9254/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-threads --enable-eh-frame-hdr-for-static --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --with-arch=armv5te --program-transform-name='s&^&arm-linux-androideabi-&' --enable-gold=default
+Thread model: posix
+gcc version 4.9.x 20150123 (prerelease) (GCC) 
+COMPILER_PATH=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/
+LIBRARY_PATH=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/:/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib/
+Reading specs from /home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb/libgomp.spec
+COLLECT_GCC_OPTIONS='-march=armv7-a' '-mthumb' '-mfpu=neon' '-mfloat-abi=softfp' '-funwind-tables' '-D' '__ANDROID_API__=22' '-fexceptions' '-fopenmp' '-v' '-g' '-fPIE' '-pie' '-o' 'cmTC_37c00' '-v' '-mtls-dialect=gnu' '-pthread'
+ /home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2 -plugin /home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin.so -plugin-opt=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwNRy28.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm --eh-frame-hdr -dynamic-linker /system/bin/linker -X -m armelf_linux_eabi -z noexecstack -z relro -z now -pie -o cmTC_37c00 /home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib/crtbegin_dynamic.o -L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x -L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc -L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib -L/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib -llog --fix-cortex-a8 --gc-sections -z nocopyreloc CMakeFiles/cmTC_37c00.dir/OpenMPTryFlag.c.o -lgomp -lgcc -lc -ldl -lgcc /home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib/crtend_android.o
+make[1]: Leaving directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp'
+
+
+Parsed C OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_37c00/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_37c00.dir/build.make CMakeFiles/cmTC_37c00.dir/build]
+  ignore line: [make[1]: Entering directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_37c00.dir/OpenMPTryFlag.c.o]
+  ignore line: [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/sysroot  -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include/arm-linux-androideabi  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=22 -fexceptions -llog -fPIC -fopenmp -v -g -fPIE   -o CMakeFiles/cmTC_37c00.dir/OpenMPTryFlag.c.o   -c /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/FindOpenMP/OpenMPTryFlag.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc]
+  ignore line: [Target: arm-linux-androideabi]
+  ignore line: [Configured with: /usr/local/google/buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/1f702185e9cc53b747a5c4e1441c9254 --target=arm-linux-androideabi --host=x86_64-linux-gnu --build=x86_64-linux-gnu --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/1f702185e9cc53b747a5c4e1441c9254 --with-sysroot=/tmp/1f702185e9cc53b747a5c4e1441c9254/sysroot --with-binutils-version=2.27 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/1f702185e9cc53b747a5c4e1441c9254/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-threads --enable-eh-frame-hdr-for-static --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --with-arch=armv5te --program-transform-name='s&^&arm-linux-androideabi-&' --enable-gold=default]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.x 20150123 (prerelease) (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-isystem' '/home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include' '-isystem' '/home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include/arm-linux-androideabi' '-march=armv7-a' '-mthumb' '-mfpu=neon' '-mfloat-abi=softfp' '-funwind-tables' '-D' '__ANDROID_API__=22' '-fexceptions' '-fopenmp' '-v' '-g' '-fPIE' '-o' 'CMakeFiles/cmTC_37c00.dir/OpenMPTryFlag.c.o' '-c' '-mtls-dialect=gnu' '-pthread']
+  ignore line: [ /home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/cc1 -quiet -v -imultilib armv7-a/thumb -iprefix /home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/ -isysroot /home/yuan/paddle_lite/android-ndk-r17c/sysroot -D_REENTRANT -D __ANDROID_API__=22 -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include/arm-linux-androideabi /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -mbionic -fpic -quiet -dumpbase OpenMPTryFlag.c -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -mtls-dialect=gnu -auxbase-strip CMakeFiles/cmTC_37c00.dir/OpenMPTryFlag.c.o -g -version -funwind-tables -fexceptions -fopenmp -fPIE -o /tmp/ccyV1Oea.s]
+  ignore line: [GNU C (GCC) version 4.9.x 20150123 (prerelease) (arm-linux-androideabi)]
+  ignore line: [	compiled by GNU C version 4.8, GMP version 5.0.5, MPFR version 3.1.1, MPC version 1.0.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/include"]
+  ignore line: [ignoring duplicate directory "/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/../../lib/gcc/arm-linux-androideabi/4.9.x/include"]
+  ignore line: [ignoring nonexistent directory "/home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/../../lib/gcc/arm-linux-androideabi/4.9.x/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/../../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/include"]
+  ignore line: [ignoring duplicate directory "/home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include]
+  ignore line: [ /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include/arm-linux-androideabi]
+  ignore line: [ /home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/include]
+  ignore line: [ /home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/include-fixed]
+  ignore line: [End of search list.]
+  ignore line: [GNU C (GCC) version 4.9.x 20150123 (prerelease) (arm-linux-androideabi)]
+  ignore line: [	compiled by GNU C version 4.8, GMP version 5.0.5, MPFR version 3.1.1, MPC version 1.0.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 3ca9deec1e8f8d5feef1f76da9a96d4d]
+  ignore line: [COLLECT_GCC_OPTIONS='-isystem' '/home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include' '-isystem' '/home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include/arm-linux-androideabi' '-march=armv7-a' '-mthumb' '-mfpu=neon' '-mfloat-abi=softfp' '-funwind-tables' '-D' '__ANDROID_API__=22' '-fexceptions' '-fopenmp' '-v' '-g' '-fPIE' '-o' 'CMakeFiles/cmTC_37c00.dir/OpenMPTryFlag.c.o' '-c' '-mtls-dialect=gnu' '-pthread']
+  ignore line: [ /home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/as -v -march=armv7-a -mfloat-abi=softfp -mfpu=neon -meabi=5 --noexecstack -o CMakeFiles/cmTC_37c00.dir/OpenMPTryFlag.c.o /tmp/ccyV1Oea.s]
+  ignore line: [GNU assembler version 2.27.0 (arm-linux-androideabi) using BFD version (binutils-2.27-bf0c2e88) 2.27.0.20170315]
+  ignore line: [COMPILER_PATH=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/]
+  ignore line: [LIBRARY_PATH=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/:/home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-isystem' '/home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include' '-isystem' '/home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include/arm-linux-androideabi' '-march=armv7-a' '-mthumb' '-mfpu=neon' '-mfloat-abi=softfp' '-funwind-tables' '-D' '__ANDROID_API__=22' '-fexceptions' '-fopenmp' '-v' '-g' '-fPIE' '-o' 'CMakeFiles/cmTC_37c00.dir/OpenMPTryFlag.c.o' '-c' '-mtls-dialect=gnu' '-pthread']
+  ignore line: [Linking C executable cmTC_37c00]
+  ignore line: [/home/yuan/software/cmake-3.11.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37c00.dir/link.txt --verbose=1]
+  ignore line: [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=22 -fexceptions -llog -fPIC -fopenmp -v -g  -Wl,--fix-cortex-a8  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_37c00.dir/OpenMPTryFlag.c.o  -o cmTC_37c00 -v ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper]
+  ignore line: [Target: arm-linux-androideabi]
+  ignore line: [Configured with: /usr/local/google/buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/1f702185e9cc53b747a5c4e1441c9254 --target=arm-linux-androideabi --host=x86_64-linux-gnu --build=x86_64-linux-gnu --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/1f702185e9cc53b747a5c4e1441c9254 --with-sysroot=/tmp/1f702185e9cc53b747a5c4e1441c9254/sysroot --with-binutils-version=2.27 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/1f702185e9cc53b747a5c4e1441c9254/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-threads --enable-eh-frame-hdr-for-static --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --with-arch=armv5te --program-transform-name='s&^&arm-linux-androideabi-&' --enable-gold=default]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.x 20150123 (prerelease) (GCC) ]
+  ignore line: [COMPILER_PATH=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/]
+  ignore line: [LIBRARY_PATH=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/:/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib/]
+  ignore line: [Reading specs from /home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb/libgomp.spec]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=armv7-a' '-mthumb' '-mfpu=neon' '-mfloat-abi=softfp' '-funwind-tables' '-D' '__ANDROID_API__=22' '-fexceptions' '-fopenmp' '-v' '-g' '-fPIE' '-pie' '-o' 'cmTC_37c00' '-v' '-mtls-dialect=gnu' '-pthread']
+  link line: [ /home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2 -plugin /home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin.so -plugin-opt=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwNRy28.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm --eh-frame-hdr -dynamic-linker /system/bin/linker -X -m armelf_linux_eabi -z noexecstack -z relro -z now -pie -o cmTC_37c00 /home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib/crtbegin_dynamic.o -L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x -L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc -L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib -L/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib -llog --fix-cortex-a8 --gc-sections -z nocopyreloc CMakeFiles/cmTC_37c00.dir/OpenMPTryFlag.c.o -lgomp -lgcc -lc -ldl -lgcc /home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib/crtend_android.o]
+    arg [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccwNRy28.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-ldl] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_37c00] ==> ignore
+    arg [/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> dir [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
+    arg [-L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> dir [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb]
+    arg [-L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x] ==> dir [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x]
+    arg [-L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc] ==> dir [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc]
+    arg [-L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib] ==> dir [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib]
+    arg [-L/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib] ==> dir [/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib]
+    arg [-llog] ==> lib [log]
+    arg [--fix-cortex-a8] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [CMakeFiles/cmTC_37c00.dir/OpenMPTryFlag.c.o] ==> ignore
+    arg [-lgomp] ==> lib [gomp]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-ldl] ==> lib [dl]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib/crtend_android.o] ==> ignore
+  collapse library dir [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
+  collapse library dir [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
+  collapse library dir [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x] ==> [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  collapse library dir [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc] ==> [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc]
+  collapse library dir [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib] ==> [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib]
+  collapse library dir [/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib] ==> [/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib]
+  implicit libs: [log;gomp;gcc;c;dl;gcc]
+  implicit dirs: [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb;/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib/armv7-a/thumb;/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x;/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc;/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib;/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib]
+  implicit fwks: []
+
+
+Detecting CXX OpenMP compiler ABI info compiled with the following output:
+Change Dir: /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_faef2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_faef2.dir/build.make CMakeFiles/cmTC_faef2.dir/build
+make[1]: Entering directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_faef2.dir/OpenMPTryFlag.cpp.o
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/sysroot   -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/android/support/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include/arm-linux-androideabi  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=22 -fexceptions -frtti -llog -fPIC -std=c++11 -fopenmp -v -g -fPIE   -o CMakeFiles/cmTC_faef2.dir/OpenMPTryFlag.cpp.o -c /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Using built-in specs.
+COLLECT_GCC=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++
+Target: arm-linux-androideabi
+Configured with: /usr/local/google/buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/1f702185e9cc53b747a5c4e1441c9254 --target=arm-linux-androideabi --host=x86_64-linux-gnu --build=x86_64-linux-gnu --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/1f702185e9cc53b747a5c4e1441c9254 --with-sysroot=/tmp/1f702185e9cc53b747a5c4e1441c9254/sysroot --with-binutils-version=2.27 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/1f702185e9cc53b747a5c4e1441c9254/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-threads --enable-eh-frame-hdr-for-static --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --with-arch=armv5te --program-transform-name='s&^&arm-linux-androideabi-&' --enable-gold=default
+Thread model: posix
+gcc version 4.9.x 20150123 (prerelease) (GCC) 
+COLLECT_GCC_OPTIONS='-isystem' '/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include' '-isystem' '/home/yuan/paddle_lite/android-ndk-r17c/sources/android/support/include' '-isystem' '/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include' '-isystem' '/home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include' '-isystem' '/home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include/arm-linux-androideabi' '-march=armv7-a' '-mthumb' '-mfpu=neon' '-mfloat-abi=softfp' '-funwind-tables' '-D' '__ANDROID_API__=22' '-fexceptions' '-frtti' '-std=c++11' '-fopenmp' '-v' '-g' '-fPIE' '-o' 'CMakeFiles/cmTC_faef2.dir/OpenMPTryFlag.cpp.o' '-c' '-mtls-dialect=gnu' '-pthread'
+ /home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/cc1plus -quiet -v -imultilib armv7-a/thumb -iprefix /home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/ -isysroot /home/yuan/paddle_lite/android-ndk-r17c/sysroot -D_GNU_SOURCE -D_REENTRANT -D __ANDROID_API__=22 -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/android/support/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include/arm-linux-androideabi /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -mbionic -fpic -quiet -dumpbase OpenMPTryFlag.cpp -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -mtls-dialect=gnu -auxbase-strip CMakeFiles/cmTC_faef2.dir/OpenMPTryFlag.cpp.o -g -std=c++11 -version -funwind-tables -fexceptions -frtti -fopenmp -fPIE -o /tmp/ccroIUtb.s
+GNU C++ (GCC) version 4.9.x 20150123 (prerelease) (arm-linux-androideabi)
+	compiled by GNU C version 4.8, GMP version 5.0.5, MPFR version 3.1.1, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/include"
+ignoring nonexistent directory "/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/../../include/c++/4.9.x"
+ignoring nonexistent directory "/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/../../include/c++/4.9.x/arm-linux-androideabi/armv7-a/thumb"
+ignoring nonexistent directory "/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/../../include/c++/4.9.x/backward"
+ignoring duplicate directory "/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/../../lib/gcc/arm-linux-androideabi/4.9.x/include"
+ignoring nonexistent directory "/home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/local/include"
+ignoring duplicate directory "/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/../../lib/gcc/arm-linux-androideabi/4.9.x/include-fixed"
+ignoring nonexistent directory "/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/../../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/include"
+ignoring duplicate directory "/home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include
+ /home/yuan/paddle_lite/android-ndk-r17c/sources/android/support/include
+ /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include
+ /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include
+ /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include/arm-linux-androideabi
+ /home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/include
+ /home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/include-fixed
+End of search list.
+GNU C++ (GCC) version 4.9.x 20150123 (prerelease) (arm-linux-androideabi)
+	compiled by GNU C version 4.8, GMP version 5.0.5, MPFR version 3.1.1, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 482c694b22aa3c571f1a973a555d9da3
+COLLECT_GCC_OPTIONS='-isystem' '/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include' '-isystem' '/home/yuan/paddle_lite/android-ndk-r17c/sources/android/support/include' '-isystem' '/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include' '-isystem' '/home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include' '-isystem' '/home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include/arm-linux-androideabi' '-march=armv7-a' '-mthumb' '-mfpu=neon' '-mfloat-abi=softfp' '-funwind-tables' '-D' '__ANDROID_API__=22' '-fexceptions' '-frtti' '-std=c++11' '-fopenmp' '-v' '-g' '-fPIE' '-o' 'CMakeFiles/cmTC_faef2.dir/OpenMPTryFlag.cpp.o' '-c' '-mtls-dialect=gnu' '-pthread'
+ /home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/as -v -march=armv7-a -mfloat-abi=softfp -mfpu=neon -meabi=5 --noexecstack -o CMakeFiles/cmTC_faef2.dir/OpenMPTryFlag.cpp.o /tmp/ccroIUtb.s
+GNU assembler version 2.27.0 (arm-linux-androideabi) using BFD version (binutils-2.27-bf0c2e88) 2.27.0.20170315
+COMPILER_PATH=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/
+LIBRARY_PATH=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/:/home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-isystem' '/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include' '-isystem' '/home/yuan/paddle_lite/android-ndk-r17c/sources/android/support/include' '-isystem' '/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include' '-isystem' '/home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include' '-isystem' '/home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include/arm-linux-androideabi' '-march=armv7-a' '-mthumb' '-mfpu=neon' '-mfloat-abi=softfp' '-funwind-tables' '-D' '__ANDROID_API__=22' '-fexceptions' '-frtti' '-std=c++11' '-fopenmp' '-v' '-g' '-fPIE' '-o' 'CMakeFiles/cmTC_faef2.dir/OpenMPTryFlag.cpp.o' '-c' '-mtls-dialect=gnu' '-pthread'
+Linking CXX executable cmTC_faef2
+/home/yuan/software/cmake-3.11.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_faef2.dir/link.txt --verbose=1
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=22 -fexceptions -frtti -llog -fPIC -std=c++11 -fopenmp -v -g  -Wl,--fix-cortex-a8  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_faef2.dir/OpenMPTryFlag.cpp.o  -o cmTC_faef2 -v  "/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++_static.a" "/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++abi.a" "/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libandroid_support.a" "/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libunwind.a" -latomic 
+Using built-in specs.
+COLLECT_GCC=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++
+COLLECT_LTO_WRAPPER=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper
+Target: arm-linux-androideabi
+Configured with: /usr/local/google/buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/1f702185e9cc53b747a5c4e1441c9254 --target=arm-linux-androideabi --host=x86_64-linux-gnu --build=x86_64-linux-gnu --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/1f702185e9cc53b747a5c4e1441c9254 --with-sysroot=/tmp/1f702185e9cc53b747a5c4e1441c9254/sysroot --with-binutils-version=2.27 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/1f702185e9cc53b747a5c4e1441c9254/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-threads --enable-eh-frame-hdr-for-static --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --with-arch=armv5te --program-transform-name='s&^&arm-linux-androideabi-&' --enable-gold=default
+Thread model: posix
+gcc version 4.9.x 20150123 (prerelease) (GCC) 
+COMPILER_PATH=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/
+LIBRARY_PATH=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/:/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib/
+Reading specs from /home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb/libgomp.spec
+COLLECT_GCC_OPTIONS='-march=armv7-a' '-mthumb' '-mfpu=neon' '-mfloat-abi=softfp' '-funwind-tables' '-D' '__ANDROID_API__=22' '-fexceptions' '-frtti' '-std=c++11' '-fopenmp' '-v' '-g' '-fPIE' '-pie' '-o' 'cmTC_faef2' '-v' '-mtls-dialect=gnu' '-pthread'
+ /home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2 -plugin /home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin.so -plugin-opt=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHs7wJd.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm --eh-frame-hdr -dynamic-linker /system/bin/linker -X -m armelf_linux_eabi -z noexecstack -z relro -z now -pie -o cmTC_faef2 /home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib/crtbegin_dynamic.o -L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x -L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc -L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib -L/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib -llog --fix-cortex-a8 --gc-sections -z nocopyreloc CMakeFiles/cmTC_faef2.dir/OpenMPTryFlag.cpp.o /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++_static.a /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++abi.a /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libandroid_support.a /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libunwind.a -latomic -lstdc++ -lm -lgomp -lgcc -lc -ldl -lgcc /home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib/crtend_android.o
+make[1]: Leaving directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_faef2/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_faef2.dir/build.make CMakeFiles/cmTC_faef2.dir/build]
+  ignore line: [make[1]: Entering directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_faef2.dir/OpenMPTryFlag.cpp.o]
+  ignore line: [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/sysroot   -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/android/support/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include/arm-linux-androideabi  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=22 -fexceptions -frtti -llog -fPIC -std=c++11 -fopenmp -v -g -fPIE   -o CMakeFiles/cmTC_faef2.dir/OpenMPTryFlag.cpp.o -c /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++]
+  ignore line: [Target: arm-linux-androideabi]
+  ignore line: [Configured with: /usr/local/google/buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/1f702185e9cc53b747a5c4e1441c9254 --target=arm-linux-androideabi --host=x86_64-linux-gnu --build=x86_64-linux-gnu --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/1f702185e9cc53b747a5c4e1441c9254 --with-sysroot=/tmp/1f702185e9cc53b747a5c4e1441c9254/sysroot --with-binutils-version=2.27 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/1f702185e9cc53b747a5c4e1441c9254/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-threads --enable-eh-frame-hdr-for-static --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --with-arch=armv5te --program-transform-name='s&^&arm-linux-androideabi-&' --enable-gold=default]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.x 20150123 (prerelease) (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-isystem' '/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include' '-isystem' '/home/yuan/paddle_lite/android-ndk-r17c/sources/android/support/include' '-isystem' '/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include' '-isystem' '/home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include' '-isystem' '/home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include/arm-linux-androideabi' '-march=armv7-a' '-mthumb' '-mfpu=neon' '-mfloat-abi=softfp' '-funwind-tables' '-D' '__ANDROID_API__=22' '-fexceptions' '-frtti' '-std=c++11' '-fopenmp' '-v' '-g' '-fPIE' '-o' 'CMakeFiles/cmTC_faef2.dir/OpenMPTryFlag.cpp.o' '-c' '-mtls-dialect=gnu' '-pthread']
+  ignore line: [ /home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/cc1plus -quiet -v -imultilib armv7-a/thumb -iprefix /home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/ -isysroot /home/yuan/paddle_lite/android-ndk-r17c/sysroot -D_GNU_SOURCE -D_REENTRANT -D __ANDROID_API__=22 -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/android/support/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include -isystem /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include/arm-linux-androideabi /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -mbionic -fpic -quiet -dumpbase OpenMPTryFlag.cpp -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -mtls-dialect=gnu -auxbase-strip CMakeFiles/cmTC_faef2.dir/OpenMPTryFlag.cpp.o -g -std=c++11 -version -funwind-tables -fexceptions -frtti -fopenmp -fPIE -o /tmp/ccroIUtb.s]
+  ignore line: [GNU C++ (GCC) version 4.9.x 20150123 (prerelease) (arm-linux-androideabi)]
+  ignore line: [	compiled by GNU C version 4.8, GMP version 5.0.5, MPFR version 3.1.1, MPC version 1.0.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/include"]
+  ignore line: [ignoring nonexistent directory "/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/../../include/c++/4.9.x"]
+  ignore line: [ignoring nonexistent directory "/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/../../include/c++/4.9.x/arm-linux-androideabi/armv7-a/thumb"]
+  ignore line: [ignoring nonexistent directory "/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/../../include/c++/4.9.x/backward"]
+  ignore line: [ignoring duplicate directory "/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/../../lib/gcc/arm-linux-androideabi/4.9.x/include"]
+  ignore line: [ignoring nonexistent directory "/home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/../../lib/gcc/arm-linux-androideabi/4.9.x/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/../../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/include"]
+  ignore line: [ignoring duplicate directory "/home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include]
+  ignore line: [ /home/yuan/paddle_lite/android-ndk-r17c/sources/android/support/include]
+  ignore line: [ /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include]
+  ignore line: [ /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include]
+  ignore line: [ /home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include/arm-linux-androideabi]
+  ignore line: [ /home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/include]
+  ignore line: [ /home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/include-fixed]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++ (GCC) version 4.9.x 20150123 (prerelease) (arm-linux-androideabi)]
+  ignore line: [	compiled by GNU C version 4.8, GMP version 5.0.5, MPFR version 3.1.1, MPC version 1.0.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 482c694b22aa3c571f1a973a555d9da3]
+  ignore line: [COLLECT_GCC_OPTIONS='-isystem' '/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include' '-isystem' '/home/yuan/paddle_lite/android-ndk-r17c/sources/android/support/include' '-isystem' '/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include' '-isystem' '/home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include' '-isystem' '/home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include/arm-linux-androideabi' '-march=armv7-a' '-mthumb' '-mfpu=neon' '-mfloat-abi=softfp' '-funwind-tables' '-D' '__ANDROID_API__=22' '-fexceptions' '-frtti' '-std=c++11' '-fopenmp' '-v' '-g' '-fPIE' '-o' 'CMakeFiles/cmTC_faef2.dir/OpenMPTryFlag.cpp.o' '-c' '-mtls-dialect=gnu' '-pthread']
+  ignore line: [ /home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/as -v -march=armv7-a -mfloat-abi=softfp -mfpu=neon -meabi=5 --noexecstack -o CMakeFiles/cmTC_faef2.dir/OpenMPTryFlag.cpp.o /tmp/ccroIUtb.s]
+  ignore line: [GNU assembler version 2.27.0 (arm-linux-androideabi) using BFD version (binutils-2.27-bf0c2e88) 2.27.0.20170315]
+  ignore line: [COMPILER_PATH=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/]
+  ignore line: [LIBRARY_PATH=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/:/home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-isystem' '/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include' '-isystem' '/home/yuan/paddle_lite/android-ndk-r17c/sources/android/support/include' '-isystem' '/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include' '-isystem' '/home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include' '-isystem' '/home/yuan/paddle_lite/android-ndk-r17c/sysroot/usr/include/arm-linux-androideabi' '-march=armv7-a' '-mthumb' '-mfpu=neon' '-mfloat-abi=softfp' '-funwind-tables' '-D' '__ANDROID_API__=22' '-fexceptions' '-frtti' '-std=c++11' '-fopenmp' '-v' '-g' '-fPIE' '-o' 'CMakeFiles/cmTC_faef2.dir/OpenMPTryFlag.cpp.o' '-c' '-mtls-dialect=gnu' '-pthread']
+  ignore line: [Linking CXX executable cmTC_faef2]
+  ignore line: [/home/yuan/software/cmake-3.11.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_faef2.dir/link.txt --verbose=1]
+  ignore line: [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=22 -fexceptions -frtti -llog -fPIC -std=c++11 -fopenmp -v -g  -Wl,--fix-cortex-a8  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_faef2.dir/OpenMPTryFlag.cpp.o  -o cmTC_faef2 -v  "/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++_static.a" "/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++abi.a" "/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libandroid_support.a" "/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libunwind.a" -latomic ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper]
+  ignore line: [Target: arm-linux-androideabi]
+  ignore line: [Configured with: /usr/local/google/buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/1f702185e9cc53b747a5c4e1441c9254 --target=arm-linux-androideabi --host=x86_64-linux-gnu --build=x86_64-linux-gnu --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/1f702185e9cc53b747a5c4e1441c9254 --with-sysroot=/tmp/1f702185e9cc53b747a5c4e1441c9254/sysroot --with-binutils-version=2.27 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/1f702185e9cc53b747a5c4e1441c9254/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-threads --enable-eh-frame-hdr-for-static --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --with-arch=armv5te --program-transform-name='s&^&arm-linux-androideabi-&' --enable-gold=default]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.x 20150123 (prerelease) (GCC) ]
+  ignore line: [COMPILER_PATH=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/]
+  ignore line: [LIBRARY_PATH=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/:/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/:/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib/]
+  ignore line: [Reading specs from /home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb/libgomp.spec]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=armv7-a' '-mthumb' '-mfpu=neon' '-mfloat-abi=softfp' '-funwind-tables' '-D' '__ANDROID_API__=22' '-fexceptions' '-frtti' '-std=c++11' '-fopenmp' '-v' '-g' '-fPIE' '-pie' '-o' 'cmTC_faef2' '-v' '-mtls-dialect=gnu' '-pthread']
+  link line: [ /home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2 -plugin /home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin.so -plugin-opt=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHs7wJd.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm --eh-frame-hdr -dynamic-linker /system/bin/linker -X -m armelf_linux_eabi -z noexecstack -z relro -z now -pie -o cmTC_faef2 /home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib/crtbegin_dynamic.o -L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x -L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc -L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib -L/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib -llog --fix-cortex-a8 --gc-sections -z nocopyreloc CMakeFiles/cmTC_faef2.dir/OpenMPTryFlag.cpp.o /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++_static.a /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++abi.a /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libandroid_support.a /home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libunwind.a -latomic -lstdc++ -lm -lgomp -lgcc -lc -ldl -lgcc /home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib/crtend_android.o]
+    arg [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccHs7wJd.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-ldl] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_faef2] ==> ignore
+    arg [/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> dir [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
+    arg [-L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> dir [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb]
+    arg [-L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x] ==> dir [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x]
+    arg [-L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc] ==> dir [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc]
+    arg [-L/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib] ==> dir [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib]
+    arg [-L/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib] ==> dir [/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib]
+    arg [-llog] ==> lib [log]
+    arg [--fix-cortex-a8] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [CMakeFiles/cmTC_faef2.dir/OpenMPTryFlag.cpp.o] ==> ignore
+    arg [/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++_static.a] ==> lib [/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++_static.a]
+    arg [/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++abi.a] ==> lib [/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++abi.a]
+    arg [/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libandroid_support.a] ==> lib [/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libandroid_support.a]
+    arg [/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libunwind.a] ==> lib [/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libunwind.a]
+    arg [-latomic] ==> lib [atomic]
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgomp] ==> lib [gomp]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-ldl] ==> lib [dl]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib/crtend_android.o] ==> ignore
+  collapse library dir [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
+  collapse library dir [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
+  collapse library dir [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x] ==> [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  collapse library dir [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc] ==> [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc]
+  collapse library dir [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib] ==> [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib]
+  collapse library dir [/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib] ==> [/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib]
+  implicit libs: [log;/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++_static.a;/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++abi.a;/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libandroid_support.a;/home/yuan/paddle_lite/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libunwind.a;atomic;stdc++;m;gomp;gcc;c;dl;gcc]
+  implicit dirs: [/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb;/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib/armv7-a/thumb;/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x;/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc;/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib;/home/yuan/paddle_lite/android-ndk-r17c/platforms/android-22/arch-arm/usr/lib]
+  implicit fwks: []
+
+

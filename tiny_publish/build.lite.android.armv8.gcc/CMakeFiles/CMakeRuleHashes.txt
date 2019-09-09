@@ -1,0 +1,15 @@
+# Hashes of file build rules.
+10759ce4ee40f3fe7e56e80866bdc31e ../lite/api/paddle_use_kernels.h
+779cc41583016820a79095c1c6bc7e7d ../lite/api/paddle_use_ops.h
+36f7405aa043b9a783ded180ae0f0573 libpaddle_api_light_bundled.a
+8ddf3606f4a8e2a502ae7f6ab4195bec lite/CMakeFiles/lite_compile_deps
+07a9de3736b0bb03c6a6cf09a7968423 lite/CMakeFiles/publish_inference_android_java_demo
+0e085e4eeb46fd77bea870822696b0c1 lite/CMakeFiles/publish_inference_java_lib
+385da8891e2ff1269f86e498fbf8277a lite/api/CMakeFiles/bundle_light_api
+35259ffeaf09b5ec8bbd28c6c05c331c lite/api/android/jni/CMakeFiles/PaddlePredictor
+89cdad7340e3b64d209986dece94ba00 lite/api/android/jni/CMakeFiles/PaddlePredictor.dir/java_class_filelist
+d9605a2406e5098a515701f2470a2055 lite/api/android/jni/CMakeFiles/PaddlePredictor.dir/java_compiled_PaddlePredictor
+bf77b4d7f307a9aab77662251e5f82a0 lite/api/android/jni/CMakeFiles/paddle_lite_jni_header
+afc41a47f54ff25505af287c146a36b5 lite/api/android/jni/PaddlePredictor.jar
+38400303011c97debcdaf6438e2e200a lite/core/CMakeFiles/kernel_list_h
+38400303011c97debcdaf6438e2e200a lite/core/CMakeFiles/op_list_h

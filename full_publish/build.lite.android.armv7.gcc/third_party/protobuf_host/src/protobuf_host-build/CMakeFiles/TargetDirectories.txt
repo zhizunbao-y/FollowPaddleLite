@@ -1,0 +1,10 @@
+/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/third_party/protobuf_host/src/protobuf_host-build/CMakeFiles/install/strip.dir
+/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/third_party/protobuf_host/src/protobuf_host-build/CMakeFiles/install/local.dir
+/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/third_party/protobuf_host/src/protobuf_host-build/CMakeFiles/install.dir
+/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/third_party/protobuf_host/src/protobuf_host-build/CMakeFiles/list_install_components.dir
+/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/third_party/protobuf_host/src/protobuf_host-build/CMakeFiles/rebuild_cache.dir
+/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/third_party/protobuf_host/src/protobuf_host-build/CMakeFiles/edit_cache.dir
+/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/third_party/protobuf_host/src/protobuf_host-build/CMakeFiles/libprotobuf-lite.dir
+/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/third_party/protobuf_host/src/protobuf_host-build/CMakeFiles/libprotoc.dir
+/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/third_party/protobuf_host/src/protobuf_host-build/CMakeFiles/libprotobuf.dir
+/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/third_party/protobuf_host/src/protobuf_host-build/CMakeFiles/protoc.dir

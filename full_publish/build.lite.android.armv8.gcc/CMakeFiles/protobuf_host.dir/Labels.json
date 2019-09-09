@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv8.gcc/CMakeFiles/protobuf_host"
+		},
+		{
+			"file" : "/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv8.gcc/CMakeFiles/protobuf_host.rule"
+		},
+		{
+			"file" : "/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv8.gcc/CMakeFiles/protobuf_host-complete.rule"
+		},
+		{
+			"file" : "/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv8.gcc/third_party/protobuf_host/src/protobuf_host-stamp/protobuf_host-install.rule"
+		},
+		{
+			"file" : "/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv8.gcc/third_party/protobuf_host/src/protobuf_host-stamp/protobuf_host-mkdir.rule"
+		},
+		{
+			"file" : "/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv8.gcc/third_party/protobuf_host/src/protobuf_host-stamp/protobuf_host-download.rule"
+		},
+		{
+			"file" : "/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv8.gcc/third_party/protobuf_host/src/protobuf_host-stamp/protobuf_host-update.rule"
+		},
+		{
+			"file" : "/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv8.gcc/third_party/protobuf_host/src/protobuf_host-stamp/protobuf_host-patch.rule"
+		},
+		{
+			"file" : "/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv8.gcc/third_party/protobuf_host/src/protobuf_host-stamp/protobuf_host-configure.rule"
+		},
+		{
+			"file" : "/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv8.gcc/third_party/protobuf_host/src/protobuf_host-stamp/protobuf_host-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"protobuf_host"
+		],
+		"name" : "protobuf_host"
+	}
+}

@@ -1,0 +1,59 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv8.gcc/third_party/protobuf_host/src/protobuf_host-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_00874/fast"
+make[4]: Entering directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv8.gcc/third_party/protobuf_host/src/protobuf_host-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_00874.dir/build.make CMakeFiles/cmTC_00874.dir/build
+make[5]: Entering directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv8.gcc/third_party/protobuf_host/src/protobuf_host-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_00874.dir/CheckSymbolExists.c.o
+/usr/bin/gcc   -fPIE   -o CMakeFiles/cmTC_00874.dir/CheckSymbolExists.c.o   -c /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv8.gcc/third_party/protobuf_host/src/protobuf_host-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_00874
+/home/yuan/software/cmake-3.11.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00874.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_00874.dir/CheckSymbolExists.c.o  -o cmTC_00874 
+CMakeFiles/cmTC_00874.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x1b)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_00874.dir/build.make:86: recipe for target 'cmTC_00874' failed
+make[5]: *** [cmTC_00874] Error 1
+make[5]: Leaving directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv8.gcc/third_party/protobuf_host/src/protobuf_host-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_00874/fast' failed
+make[4]: *** [cmTC_00874/fast] Error 2
+make[4]: Leaving directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv8.gcc/third_party/protobuf_host/src/protobuf_host-build/CMakeFiles/CMakeTmp'
+
+File /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv8.gcc/third_party/protobuf_host/src/protobuf_host-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv8.gcc/third_party/protobuf_host/src/protobuf_host-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3c0eb/fast"
+make[4]: Entering directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv8.gcc/third_party/protobuf_host/src/protobuf_host-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_3c0eb.dir/build.make CMakeFiles/cmTC_3c0eb.dir/build
+make[5]: Entering directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv8.gcc/third_party/protobuf_host/src/protobuf_host-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3c0eb.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE   -o CMakeFiles/cmTC_3c0eb.dir/CheckFunctionExists.c.o   -c /home/yuan/software/cmake-3.11.0-Linux-x86_64/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3c0eb
+/home/yuan/software/cmake-3.11.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c0eb.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_3c0eb.dir/CheckFunctionExists.c.o  -o cmTC_3c0eb -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_3c0eb.dir/build.make:86: recipe for target 'cmTC_3c0eb' failed
+make[5]: *** [cmTC_3c0eb] Error 1
+make[5]: Leaving directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv8.gcc/third_party/protobuf_host/src/protobuf_host-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3c0eb/fast' failed
+make[4]: *** [cmTC_3c0eb/fast] Error 2
+make[4]: Leaving directory '/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv8.gcc/third_party/protobuf_host/src/protobuf_host-build/CMakeFiles/CMakeTmp'
+
+

@@ -1,0 +1,13 @@
+# Target labels
+ extern_gflags
+# Source files and their labels
+/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/extern_gflags
+/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/extern_gflags.rule
+/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/CMakeFiles/extern_gflags-complete.rule
+/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/third_party/install/gflags/include/src/extern_gflags-stamp/extern_gflags-install.rule
+/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/third_party/install/gflags/include/src/extern_gflags-stamp/extern_gflags-mkdir.rule
+/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/third_party/install/gflags/include/src/extern_gflags-stamp/extern_gflags-download.rule
+/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/third_party/install/gflags/include/src/extern_gflags-stamp/extern_gflags-update.rule
+/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/third_party/install/gflags/include/src/extern_gflags-stamp/extern_gflags-patch.rule
+/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/third_party/install/gflags/include/src/extern_gflags-stamp/extern_gflags-configure.rule
+/home/yuan/paddle_lite/tiny/Paddle-Lite/build.lite.android.armv7.gcc/third_party/install/gflags/include/src/extern_gflags-stamp/extern_gflags-build.rule

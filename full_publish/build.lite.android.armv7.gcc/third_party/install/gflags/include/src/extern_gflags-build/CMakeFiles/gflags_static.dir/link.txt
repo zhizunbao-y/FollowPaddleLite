@@ -1,0 +1,2 @@
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ar qc lib/libgflags.a  CMakeFiles/gflags_static.dir/src/gflags.cc.o CMakeFiles/gflags_static.dir/src/gflags_reporting.cc.o CMakeFiles/gflags_static.dir/src/gflags_completions.cc.o
+/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ranlib lib/libgflags.a
