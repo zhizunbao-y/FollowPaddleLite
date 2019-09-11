@@ -3,7 +3,7 @@
 * tiny_publish
 * full_publish
 ```bash
-  git clone https://github.com/zhizunbao-y/FllowPaddleLite.git  
+  git clone https://github.com/zhizunbao-y/FollowPaddleLite.git  
 ```
 　　或在该仓库下点击`download zip`
 ## 感兴趣的同学也可以自己编译，需要Linux环境，流程如下:
