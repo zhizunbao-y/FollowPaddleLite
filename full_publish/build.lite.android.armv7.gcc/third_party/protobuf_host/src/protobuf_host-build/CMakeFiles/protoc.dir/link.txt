@@ -1,1 +1,0 @@
-/usr/bin/g++  -Os -DNDEBUG  -rdynamic CMakeFiles/protoc.dir/home/yuan/paddle_lite/tiny/Paddle-Lite/third-party/protobuf-host/src/google/protobuf/compiler/main.cc.o  -o protoc libprotobuf.a libprotoc.a libprotobuf.a -lpthread 

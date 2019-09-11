@@ -1,2 +1,0 @@
-/home/yuan/paddle_lite/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-ar qc libfuse_elementwise_add_activation.a  CMakeFiles/fuse_elementwise_add_activation.dir/elementwise_add_activation_fuser.cc.o
-/home/yuan/paddle_lite/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-ranlib libfuse_elementwise_add_activation.a

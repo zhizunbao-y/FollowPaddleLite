@@ -1,2 +1,0 @@
-/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ar qc libfusion_elementwise_activation_ops.a  CMakeFiles/fusion_elementwise_activation_ops.dir/fusion_elementwise_activation_ops.cc.o
-/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ranlib libfusion_elementwise_activation_ops.a

@@ -1,2 +1,0 @@
-/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ar qc libbatch_norm_op.a  CMakeFiles/batch_norm_op.dir/batch_norm_op.cc.o
-/home/yuan/paddle_lite/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ranlib libbatch_norm_op.a
