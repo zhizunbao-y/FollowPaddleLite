@@ -46,7 +46,7 @@
 　　或者点击进入下载压缩包[Paddle-Lite](https://github.com/PaddlePaddle/Paddle-Lite.git)  
 
 7. 编译
-
+    注意：编译前请删除lite/api目录下的paddle_use_ops.h和paddle_use_kernels.h
   　编译脚本./lite/tools/build.sh，支持三种编译模式:
 
 | 编译模式 | 介绍 | 适用对象 |
